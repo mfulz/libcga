@@ -1,0 +1,11 @@
+#ifndef __CGA_H
+#define __CGA_H
+
+// install prefix
+@PREFIX_PATH@
+
+// version information
+@VERSION@
+@ABI_VERSION@
+
+#endif

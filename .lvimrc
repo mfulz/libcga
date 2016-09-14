@@ -1,0 +1,27 @@
+:set path+=libcga/include
+:set path+=/usr/include
+
+" neomake stuff
+let g:neomake_make_maker = {
+            \ 'exe': 'make',
+            \ 'args': ['-j5'],
+            \ }
+
+let g:neomake_install_maker = {
+            \ 'exe': 'make',
+            \ 'args': ['-j5', 'install'],
+            \ }
+
+let g:neomake_configure_maker = {
+            \ 'exe': './configure',
+            \ 'args': ['--enable-doxygen', '--prefix=$HOME/tmp/libcga_inst'],
+            \ }
+
+let g:neomake_bootstrap_maker = {
+            \ 'exe': './bootstrap',
+            \ }
+
+let g:neomake_clean_maker = {
+            \ 'exe': 'make',
+            \ 'args': ['clean'],
+            \ }
