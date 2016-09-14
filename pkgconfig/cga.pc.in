@@ -1,7 +1,7 @@
 prefix=@prefix@
 exec_prefix=@exec_prefix@
 libdir=@libdir@
-includedir=@includedir@/cga-@PACKAGE_VERSION@
+includedir=@includedir@/libcga-@PACKAGE_VERSION@
 
 Name: cga
 Description: STL data structures for c
